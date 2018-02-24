@@ -53,7 +53,6 @@ public          = no        # advertise this stream?
     image: jwater7/darkice
     container_name: darkice-soundstream
     volumes:
-      - "/etc/localtime:/etc/localtime:ro"
       - "./darkice.cfg:/etc/darkice.cfg:ro"
     privileged: true
     restart: always
